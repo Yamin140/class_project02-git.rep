@@ -268,6 +268,7 @@ button{
 #feature{
     padding: 100px 0;
     background-color: #201353;
+    position: relative;
 }
 
 .feature_heading{
@@ -290,11 +291,19 @@ button{
     margin-top: 18px;
 }
 /* feature_heading_end */
-.feature_wrapper{
+.feature_main{
     margin-top: 48px;
+}
+.feature_wrapper{
     display: flex;
     gap: 24px;
     flex-direction: column;
+}
+
+.feature_img{
+    position: absolute;
+    bottom: -4px;
+    right: 7%;    
 }
 .feature_wrapper .transition{
     width: 368px;
@@ -350,7 +359,106 @@ button{
     gap: 12px;
     align-items: center;
 }
+.history .history_heading h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.skilliton1{
+    margin-top: 20px;
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFFFFF4D;
+}
+.skilliton2{
+    margin-top: 10px;
+    width: 287px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFFFFF4D;
+}
+.skilliton3{
+    margin-top: 26px;
+    width: 320px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #FFFFFF26;
+}
 /* =============feature_end================= */
+
+/* =============vedio_start================= */
+#video{
+    padding: 132px 0 140px 0;
+}
+
+.video_wrapper{
+    display: flex;
+    gap: 126px;
+    align-items: center;
+}
+.video_box{
+    height: 600px;
+    width: 600px;
+    border-radius: 24px;
+    background-color: #F7F7F7;
+    overflow: hidden;
+    position: relative;
+}
+.video_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.play_btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+    cursor: pointer;
+}
+/* video_box_end */
+
+.video_details{
+    width: 514px;
+}
+.video_details .video_title{
+    font-size: 52px;
+    font-weight: 700;
+    color: #192252;
+    line-height: normal;
+}
+.video_details p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #848FAC;
+    line-height: 150%;
+    max-width: 421px;
+    margin-top: 24px;
+}
+.video_details_list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.video_details_list li{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.video_details_list li span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #192252;
+    line-height: normal;
+}
+/* =============vedio_end================= */
+
+/* =============nav_bar_start================= */
+/* =============nav_bar_end================= */
 
 /* =============nav_bar_start================= */
 /* =============nav_bar_end================= */
