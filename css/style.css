@@ -212,8 +212,8 @@ button{
 /* =============counter_start================= */
 #counter{
     background-color: #201353;
-    height: 1000px;
     padding-top: 522px;
+    padding-bottom: 32px;
 }
 
 .counter_wrapper{
@@ -226,7 +226,6 @@ button{
 }
 .counter_items{
     height: 50px;
-    width: 30%;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -235,9 +234,9 @@ button{
 .counter_items::after{
     position: absolute;
     content: "";
-    right: 0;
+    right: -45px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(100px -50%);
     width: 2px;
     height: 32px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -265,8 +264,93 @@ button{
 }
 /* =============counter_end================= */
 
-/* =============nav_bar_start================= */
-/* =============nav_bar_end================= */
+/* =============feature_start================= */
+#feature{
+    padding: 100px 0;
+    background-color: #201353;
+}
+
+.feature_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.feature_heading h2{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    max-width: 514px;
+    line-height: normal;
+}
+.feature_heading p{
+    max-width: 555px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFFFFFA3;
+    margin-top: 18px;
+}
+/* feature_heading_end */
+.feature_wrapper{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.feature_wrapper .transition{
+    width: 368px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 24px;
+}
+.transition .transition_heading{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.transition .transition_heading h4{
+    font-weight: 600;
+    font-size: 18px;
+    color: #192252;
+    line-height: 150%;
+}
+.transition >p{
+    margin-top: 20px;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.transition .progress_bar{
+    margin-top: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #EFF3FA;
+    position: relative;
+    overflow: hidden;
+}
+.transition .progress_bar::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 39%;
+    left: 0;
+    top: 0;
+    background-color: #6245D5;
+    border-radius: 2px;
+}
+.feature_wrapper .history{
+    width: 368px;
+    border-radius: 16px;
+    border: 1.5px solid #2C1A74;
+    padding: 24px;
+}
+.history .history_heading{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+/* =============feature_end================= */
 
 /* =============nav_bar_start================= */
 /* =============nav_bar_end================= */
