@@ -534,6 +534,7 @@ button{
     display: flex;
     gap: 24px;
     align-items: center;
+    transition: 0.3s all linear;
 }
 .package_item .package_input{
     width: 24px;
@@ -573,12 +574,39 @@ button{
     margin-top: 8px;
     max-width: 236px;
 }
-.package_details .price_amount span{
+.package_details .price_amount{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: end;
+}
+.package_details .price_amount .price_number{
     font-size: 32px;
     font-weight: 700;
     color: #192252;
     line-height: normal;
     display: inline-block;
+}
+.package_details .price_amount .price_duration{
+    font-size: 16px;
+    font-weight: 500;
+    color: #848FAC;
+    line-height: normal;
+}
+
+.package_main .package_item:hover{
+    background-color: #6245D5;
+    border: 1.5px solid #6245D5;
+}
+.package_main .package_item:hover .package_name h4, .package_main .package_item:hover .price_number{
+    color: white;
+}
+.package_main .package_item:hover .details_discription, .package_main .package_item:hover .package_details .price_amount .package_duration{
+    color: #FFFFFFA3;
+}
+.package_main .package_item:hover .discount{
+    background-color: #FFFFFF14;
+    color: #FFFFFFCC;
 }
 /* =============pricing_end================= */
 
