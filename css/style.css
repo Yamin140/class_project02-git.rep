@@ -485,5 +485,105 @@ button{
 }
 /* =============brand_end================= */
 
+/* =============pricing_start================= */
+#price{
+    padding: 100px 0;
+}
+
+.price_heading{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#price .price_heading h3{
+    font-size: 52px;
+    font-weight: 700;
+    color: #192252;
+    line-height: normal;
+}
+#price .price_heading p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #848FAC;
+    line-height: normal;
+    margin-top: 20px;
+}
+/* price_heading_end */
+.price_wrapper{
+    margin-top: 64px;
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+}
+.package_main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    width: 515px;
+    cursor: pointer;
+}
+.plan_main{
+    height: 200px;
+    width: 525px;
+    background-color: #6245D5;
+}
+.package_main .package_item{
+    padding: 24px;
+    border-radius: 16px;
+    border: 1.5px solid #EFF3FA;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.package_item .package_input{
+    width: 24px;
+    height: 24px;
+}
+.package_item .package_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.package_details .details_text .package_name h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #192252;
+    line-height: normal;
+}
+.package_details .details_text .package_name{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.package_details .details_text .package_name .discount{
+    padding: 4px 12px;
+    border-radius: 11px;
+    background-color: #21965314;
+    color: #219653;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+.package_details .details_text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #848FAC;
+    line-height: normal;
+    margin-top: 8px;
+    max-width: 236px;
+}
+.package_details .price_amount span{
+    font-size: 32px;
+    font-weight: 700;
+    color: #192252;
+    line-height: normal;
+    display: inline-block;
+}
+/* =============pricing_end================= */
+
+/* =============nav_bar_start================= */
+/* =============nav_bar_end================= */
+
 /* =============nav_bar_start================= */
 /* =============nav_bar_end================= */
