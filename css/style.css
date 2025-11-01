@@ -514,6 +514,7 @@ button{
     display: flex;
     column-gap: 80px;
     justify-content: center;
+    align-items: flex-start;
 }
 .package_main{
     display: flex;
@@ -523,10 +524,9 @@ button{
     cursor: pointer;
 }
 .plan_main{
-    height: 200px;
     width: 525px;
-    background-color: #6245D5;
 }
+
 .package_main .package_item{
     padding: 24px;
     border-radius: 16px;
@@ -607,6 +607,79 @@ button{
 .package_main .package_item:hover .discount{
     background-color: #FFFFFF14;
     color: #FFFFFFCC;
+}
+
+.package_input input::after{
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #848FAC;
+}
+.package_input input:checked::after{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    background-color: #6245D5;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 6px solid white;
+}
+/* package_main_end */
+.plan_main{
+    background-color: #F7F7F7;
+    border-radius: 16px;
+    padding: 52px;
+}
+
+.plan_main .plan_btn{
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    padding: 4px;
+    display: inline-block;
+}
+.plan_main .plan_btn button{
+    border: none;
+    background-color: transparent;
+    padding: 12px 16px;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+.plan_main .plan_btn .active{
+    background-color: #FC9770;
+    color: #fff;
+    border-radius: 22px;
+}
+.plan_main ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 52px;
+}
+.plan_main ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan_main ul li span{
+    color: #192252;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
 }
 /* =============pricing_end================= */
 
