@@ -690,7 +690,7 @@ button{
 }
 /* =============pricing_end================= */
 
-/* =============review_start================= */
+/* =============review & Contact_start================= */
 #review{
     padding: 100px 0;
     background-color: #201353;
@@ -782,25 +782,96 @@ button{
 }
 /* review main end here  */
 
-.review_contact_form{
+.contact_form{
     width: 600px;
     background-color: #FFFFFF1F;
     border-radius: 24px;
     padding: 64px 80px;
 }
-.review_contact_form .review_form_heading{
+.contact_form .form_heading{
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: center;
 }
-.review_contact_form .review_form_heading h5{
+.contact_form .form_heading h5{
     font-size: 24px;
     font-weight: 700;
     line-height: normal;
     color: #FFFFFF;
 }
+.contact_form form{
+    margin-top: 48px;
+}
+.contact_form form .form_group label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    color: white;
+    display: block;
+    margin-bottom: 16px;
+}
+.contact_form form .form_group input{
+    width: 100%;
+    padding: 14px 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.contact_form form .form_group.massage{
+    margin-top: 24px;
+}
+.contact_form form .form_group.massage textarea{
+    height: 80px;
+    width: 440px;
+    padding: 14px 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.contact_form form .form_group_btn{
+    margin-top: 40px;
+}
+.contact_form form .form_group_btn button{
+    height: 64px;
+    width: 440px;
+    padding: 20px 40px;
+    background-color: #FC9770;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0.2px;
+}
+.contact_form form .form_group_trial{
+    margin-top: 24px;
+    text-align: right;
+}
+.contact_form form .form_group_trial a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #FFFFFFA3;
+}
+.contact_form form .form_group_trial a span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-left: 8px;
+}
 /* =============review_end================= */
 
-/* =============nav_bar_start================= */
-/* =============nav_bar_end================= */
+/* =============footer_start================= */
+/* =============footer_end================= */
